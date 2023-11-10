@@ -26,9 +26,9 @@ export default function Services() {
   return (
     <section className="bg-secondary_a px-8 max-lg:px-4">
       <div className="py-44 flex flex-col gap-[90px] max-w-[1210px] mx-auto max-lg:py-20">
-        <div className="flex justify-between gap-4 max-lg:flex-col max-lg:gap-6">
+        <div className="flex justify-between gap-4 max-lg:flex-col max-lg:gap-6 items-center">
           <HorizontalAnimation
-            className="flex max-lg:flex-col max-lg:gap-6 max-lg:text-center"
+            className="flex max-lg:flex-col max-lg:gap-6 max-lg:text-center max-w-[730px]"
             xAxis={-100}
           >
             <Image
@@ -50,7 +50,7 @@ export default function Services() {
             <ArrowButton
               title="Our Services"
               link="services"
-              className="h-fit max-lg:mx-auto"
+              className="max-lg:mx-auto"
             />
           </HorizontalAnimation>
         </div>
