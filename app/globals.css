@@ -2,26 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .h1-title {
+    @apply font-nunito font-extrabold text-[70px] leading-[77.35px] text-secondary_a;
+  }
+  .h2-title {
+    @apply font-nunito font-semibold text-[45px] leading-[49.73px] text-secondary_a;
+  }
+  .h3-title {
+    @apply font-nunito font-semibold text-[40px] leading-[44.2px] text-secondary_a;
+  }
+  .h4-title {
+    @apply font-nunito font-semibold text-[35px] leading-[38.68px] text-secondary_a;
+  }
+  .h5-title {
+    @apply font-nunito font-semibold text-3xl leading-[33.15px] text-secondary_a;
+  }
+  .h6-title {
+    @apply font-nunito font-semibold text-[25px] leading-[27.63px] text-secondary_a;
+  }
+  .subtitle {
+    @apply font-nunito font-semibold text-xl leading-[22.1px] text-secondary_a;
+  }
+
+  .menu {
+    @apply font-nunito font-semibold text-lg leading-[28.8px] text-secondary_a dur-200 hover:text-primary_b;
+  }
+
+  .parag {
+    @apply font-notoSans font-normal text-lg leading-[28.17px] text-secondary_b;
+  }
+  .lst {
+    @apply font-notoSans font-normal text-lg leading-[43.92px] text-secondary_b;
+  }
+
+  .dur-200 {
+    @apply transition-all duration-200;
+  }
+  .dur-400 {
+    @apply transition-all duration-[400ms];
+  }
+  .dur-600 {
+    @apply transition-all duration-[600ms];
+  }
+
+  .btn-black {
+    @apply font-nunito font-medium text-lg leading-[28.8px] text-white border border-transparent
+    bg-secondary_a px-10 py-[18px] rounded-lg dur-200 hover:bg-primary_a hover:text-secondary_a;
+  }
+
+  .btn-white {
+    @apply font-nunito font-medium text-lg leading-[28.8px] text-secondary_a border border-secondary_a
+    bg-transparent px-10 py-[18px] rounded-lg dur-200 hover:bg-secondary_a hover:text-white;
+  }
+
+  .btn-gold-large {
+    @apply font-nunito font-medium text-lg leading-[28.8px] text-secondary_a border border-primary_a
+    bg-primary_a px-20 py-[18px] rounded-lg dur-200 hover:bg-transparent hover:text-primary_a;
+  }
+
+  .btn-arrow {
+    @apply font-nunito font-medium text-lg leading-[28.8px] text-secondary_a border border-secondary_a
+    px-10 py-[18px] rounded-lg dur-200 bg-[#fff] flex items-center w-fit gap-2 h-fit self-end hover:bg-primary_a hover:text-secondary_a;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper {
+  position: static !important;
+  padding: 0px 10px !important;
+  width: 97% !important;
+}
+
+.swiper-values {
+  padding-top: 12px !important ;
 }
