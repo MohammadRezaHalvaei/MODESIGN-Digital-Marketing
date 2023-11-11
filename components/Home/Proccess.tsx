@@ -61,7 +61,7 @@ export default function Proccess() {
           </div>
         </div>
 
-        <div className="absolute flex flex-col gap-56 top-1/2 -translate-y-1/2 z-10 max-lg:hidden">
+        <div className="absolute flex flex-col gap-60 top-1/2 -translate-y-[53%] z-10 max-lg:hidden">
           <div className="h-[86px] w-[86px] border-[9px] border-[#FFD1C8] rounded-full flex items-center justify-center bg-white">
             <h5 className="h5-title">1</h5>
           </div>
@@ -72,7 +72,7 @@ export default function Proccess() {
             <h5 className="h5-title">3</h5>
           </div>
         </div>
-        <div className="border-r-2 border-[#E38676] h-[80%] border-dashed absolute top-20 max-lg:hidden" />
+        <div className="border-r-2 border-[#E38676] h-[80%] border-dashed absolute top-1/2 -translate-y-1/2 max-lg:hidden" />
       </article>
     </VerticalAnimation>
   );
