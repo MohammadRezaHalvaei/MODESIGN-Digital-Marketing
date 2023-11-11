@@ -11,7 +11,7 @@ export default function Proccess() {
   return (
     <VerticalAnimation
       delay={0.4}
-      className="max-w-[1240px] px-10 mx-auto bg-gradient-to-br from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] py-[140px] max-sm:px-4 max-sm:py-[70px]"
+      className="max-w-[1240px] px-10 mx-auto bg-gradient-to-br from-[#E9F7FF] via-[#FFDBD4] to-[#FFF3CA] py-[140px] max-md:px-4 max-md:py-[70px]"
     >
       <div className="max-w-[525px] mx-auto text-center flex flex-col items-center mb-16">
         <Image src={icon} alt="Proccess" className="mb-[34px]" />
@@ -48,8 +48,7 @@ export default function Proccess() {
           <Image
             src={work}
             alt="Work"
-            className="max-md:w-full"
-            style={{ gridRowStart: 1 }}
+            className="max-md:w-full max-md:row-start-1"
           />
         </div>
         <div className="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-y-6 gap-36 w-full justify-items-center">
