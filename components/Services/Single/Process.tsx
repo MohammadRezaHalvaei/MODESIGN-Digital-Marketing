@@ -1,7 +1,7 @@
 import { CheckCircleFilled } from "@ant-design/icons";
 import ProcessCard from "./ProcessCard";
 
-import social from "@/public/images/services/single/social media.png";
+import social from "@/public/images/services/single/social-media.png";
 import publish from "@/public/images/services/single/publishing.png";
 import measure from "@/public/images/services/single/measure.png";
 import HorizontalAnimation from "@/utils/Animations/HorizontalAnimation";
