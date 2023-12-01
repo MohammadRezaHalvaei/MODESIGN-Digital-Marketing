@@ -62,13 +62,13 @@ export default function Proccess() {
         </div>
 
         <div className="absolute flex flex-col gap-60 top-1/2 -translate-y-[53%] z-10 max-lg:hidden">
-          <div className="h-[86px] w-[86px] border-[9px] border-[#FFD1C8] rounded-full flex items-center justify-center bg-white">
+          <div className="orange-circle">
             <h5 className="h5-title">1</h5>
           </div>
-          <div className="h-[86px] w-[86px] border-[9px] border-[#FFD1C8] rounded-full flex items-center justify-center bg-white">
+          <div className="orange-circle">
             <h5 className="h5-title">2</h5>
           </div>
-          <div className="h-[86px] w-[86px] border-[9px] border-[#FFD1C8] rounded-full flex items-center justify-center bg-white">
+          <div className="orange-circle">
             <h5 className="h5-title">3</h5>
           </div>
         </div>

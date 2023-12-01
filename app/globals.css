@@ -75,6 +75,10 @@ html {
     @apply font-nunito font-medium text-lg leading-[28.8px] text-secondary_a border border-secondary_a
     px-10 py-[18px] rounded-lg dur-200 bg-[#fff] flex items-center w-fit gap-2 h-fit self-end hover:bg-primary_a hover:text-secondary_a;
   }
+
+  .orange-circle {
+    @apply h-[86px] w-[86px] border-[9px] border-[#FFD1C8] rounded-full flex items-center justify-center bg-white;
+  }
 }
 
 .swiper {
