@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image, { StaticImageData } from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,15 +9,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import required modules
-import { Navigation } from "swiper/modules";
-
-import Image, { StaticImageData } from "next/image";
-
 import efficiency from "@/public/images/about/values/Efficiency.png";
 import accountability from "@/public/images/about/values/Accountability.png";
 import commitment from "@/public/images/about/values/Commitment.png";
-import teamWork from "@/public/images/about/values/Team Work.png";
+import teamWork from "@/public/images/about/values/Team-Work.png";
 import SliderButtons from "./SliderButtons";
 
 const slides = [

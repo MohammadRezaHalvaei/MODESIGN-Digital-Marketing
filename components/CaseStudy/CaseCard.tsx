@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ArrowButton from "../Utils/ArrowButton";
 
-import arrow from "@/public/images/home/articles/arrow white.svg";
+import arrow from "@/public/images/home/articles/arrow-white.svg";
 import { Link } from "nextjs13-progress";
 
 type CaseCardProps = {

@@ -6,7 +6,7 @@ import ArticlesContent from "./ArticlesContent";
 import icon from "@/public/images/home/articles/Icon.png";
 import increase from "@/public/images/home/articles/increase.png";
 import seo from "@/public/images/home/articles/seo.png";
-import arrow from "@/public/images/home/articles/arrow white.svg";
+import arrow from "@/public/images/home/articles/arrow-white.svg";
 import VerticalAnimation from "@/utils/Animations/VerticalAnimation";
 import { Link } from "nextjs13-progress";
 
